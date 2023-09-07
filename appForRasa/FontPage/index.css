@@ -1,0 +1,156 @@
+body{
+   padding:0;
+   margin: 0;
+   overflow: hidden;
+}
+
+#container{
+ 
+    background-color: rgb(240, 240, 247);
+    width: 100vw;
+    height: 100vh;
+}
+#card{
+    overflow: hidden;
+    clear: both;
+    background-color: rgb(44, 44, 70);
+    width: 30vw;
+    height:95vh;
+    margin-left: 35vw;
+   
+}
+#top{
+
+    background-color: rgb(204, 42, 42);
+    height: 5vh;
+}
+#middle{
+    overflow: auto;
+    background-color: inherit;
+    height: 75vh;
+   
+}
+#bottom{
+    
+    
+    background-color: inherit;
+    height:15vh;
+}
+#input{
+    
+    width: 90%;
+    height: 7vh;
+    color:white;
+    border-radius: 5px;
+    background-color: rgb(32, 32, 54);
+    padding: 2px;
+    margin-left:1vw;
+    
+}
+#input:hover{
+    padding: 3px;
+}
+.message{
+    background-color: rgb(37, 37, 70);
+    padding:10px;
+    margin-left:1vh;
+    margin-bottom:2vh;
+    width:60%;
+    overflow-wrap: break-word;
+    border-radius:10px;
+    border:2px solid black;
+   
+   
+}
+
+.left{
+    
+    color: cornsilk;
+    float: left;
+    clear: both;
+    font-weight:bold;
+}
+.right{
+    font-weight:bold;
+    color: cyan;
+    margin-right: 1vw;
+    float: right;
+    clear: both;
+
+}
+#submit{
+    width: 10vw;
+    height: 5vh;
+    color:white;
+    background-color: rgb(46, 46, 77);
+    margin-top: 1vh;
+    margin-left: 20vh;
+    text-align: center;
+}
+#submit:hover{
+    background-color: rgb(59, 47, 42);
+    width: 12vw;
+    margin-left: 19vh;
+    border-radius: 15px;
+}
+#bot{
+    margin-left: 20vh;
+    background-color: inherit;
+    font-size: 25px;
+    font-weight: 30px;
+}
+#online{
+    background-color: inherit;
+    color: white;
+}
+@media screen and (max-width: 992px){
+
+    #card{
+        width:60vw ;
+        margin-left: 20vw;
+    }
+}
+@media screen and (max-width: 600px){
+    #card{
+        height: 100vh;
+        width: 100vw;
+        margin: 0;
+    }
+    #submit{
+        width:50% ;
+        margin-left:25%;
+    }
+    #submit:hover{
+        width: 50%;
+        margin-left:25% ;
+
+        background-color: inherit;
+       
+        border-radius: 15px;
+
+    }
+    #input{
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+@media screen and (max-height:600px) {
+    #top{
+        height: 10%;
+    }
+    #middle{
+        height: 60%;
+
+    }
+    #bottom{
+        height: 30%;
+    }
+    #input{
+        height: 35%;
+
+    }
+    #submit{
+        height: 30%;
+    }
+    
+}
